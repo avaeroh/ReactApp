@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { NavBar } from './NavBar.js';
 import { AboutPage } from './AboutPage.js';
+import { AppRouter } from './AppRouter.js';
 import { Carousel } from './Carousel.js';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -18,6 +19,8 @@ class App extends Component {
           <NavBar />
         </header>
           <Carousel className="carousel-item active"/>
+          <br/>
+          <AppRouter />
           <AboutPage />
       </div>
     );

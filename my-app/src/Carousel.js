@@ -14,10 +14,11 @@ export class Carousel extends React.Component {
       slidesToShow: 1,
       slidesToScroll: 1
     };
+    
     return (
       <Slider {...settings}>
         <div>
-          <h3>test</h3>
+          <h3><img src="" alt="no image" /></h3>
         </div>
         <div>
           <h3>2</h3>
