@@ -24,22 +24,6 @@ export function AppRouter() {
   return (
     <Router>
       <div>
-        {/* <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about/">About</Link>
-            </li>
-            <li>
-              <Link to="/contact/">Contact</Link>
-            </li>
-            <li>
-              <Link to="/random/">FlyingDuck</Link>
-            </li>
-          </ul>
-        </nav> */}
         <div className="Pages"> 
         <Route path="/" exact component={Index} />
         <Route path="/about" component={About} />

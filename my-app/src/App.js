@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { NavBar } from './NavBar.js';
-import { AboutPage } from './pages/AboutPage.js';
 import { AppRouter } from './AppRouter.js';
 import { Carousel } from './Carousel.js';
+import { Footer } from './pages/Footer.js';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "slick-carousel/slick/slick.css";
@@ -21,9 +21,7 @@ class App extends Component {
           <Carousel className="carousel-item active"/>
           <br/>
           <AppRouter />
-          <h1>
-            Placeholder
-          </h1>
+          <Footer />
       </div>
     );
   }

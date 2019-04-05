@@ -10,7 +10,7 @@
 }
 
 .App-header {
-  background-color: #0055ff;
+  background-color: #06858F;
   min-height: 36px;
   display: flex;
   flex-direction: row;
@@ -20,9 +20,8 @@
   color: white;
 }
 
-
-.App-link {
-  color: #61dafb;
+.Carousel {
+  background-color: #6D7993;
 }
 
 .Pages {
@@ -31,7 +30,13 @@
   height: 400px;
   width: 100%;
   justify-content: center;
-  background-color: grey;
+  color: #9099A2;
+  background-color: #9099A2;
+}
+
+.Footer {
+  background-color: #D5D5D5;
+  color: black;
 }
 
 @keyframes App-logo-spin {

@@ -16,7 +16,7 @@ export class Carousel extends React.Component {
     };
     
     return (
-      <Slider {...settings}>
+      <Slider {...settings} className="Carousel">
         <div>
           <h3><img src="" alt="no image" /></h3>
         </div>
