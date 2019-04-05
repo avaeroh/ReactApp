@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { NavBar } from './NavBar.js';
-import { AboutPage } from './AboutPage.js';
+import { AboutPage } from './pages/AboutPage.js';
 import { AppRouter } from './AppRouter.js';
 import { Carousel } from './Carousel.js';
 import './App.css';
@@ -21,7 +21,9 @@ class App extends Component {
           <Carousel className="carousel-item active"/>
           <br/>
           <AppRouter />
-          <AboutPage />
+          <h1>
+            Placeholder
+          </h1>
       </div>
     );
   }
