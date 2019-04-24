@@ -8,7 +8,8 @@ export class Footer extends React.Component {
     render() {
         return (
             <div className="Footer">
-                <h1>Footer</h1>
+             <hr class="my-4"></hr>
+                <h1>Copyright Jonathan Millington-Hotze 2019</h1>
             </div>
         )
     }

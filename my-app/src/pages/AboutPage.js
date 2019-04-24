@@ -9,16 +9,13 @@ export class AboutPage extends React.Component {
 
     render() {
         return (
-            <div className="Pages">
-                <p>
-                    Clever opening line.
-                </p>
-                <img src={jondog} alt="Picture of idiot not available" height="200" />
-                <p>
-                    Some text some text some text some text some text 
-                    some text some text some text some text some text 
-                    some text some text some text some text some text 
-                </p>
+            <div className="Pages" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                    <img src={jondog} alt="Picture of idiot not available" style={{ width: '20%', marginRight: '10px' }}/>
+                    <p classname="StandardText" >
+                        La la la la la la la la la la la la la la la la la la la la la la la 
+                    </p>
+                </div>
             </div>
         )
     }

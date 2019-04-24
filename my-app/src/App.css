@@ -30,7 +30,7 @@
   height: 400px;
   width: 100%;
   justify-content: center;
-  color: #9099A2;
+  color: black;
   background-color: #9099A2;
 }
 
@@ -38,6 +38,7 @@
   background-color: #D5D5D5;
   color: black;
 }
+
 
 @keyframes App-logo-spin {
   from {
